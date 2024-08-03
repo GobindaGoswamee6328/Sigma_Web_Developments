@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Variables </title>
+    <style>
+
+        /* Inside root always has global variable*/
+        :root{
+            --color: brown;
+            --seccolor: aqua;
+
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav{
+            background-color: var(--color);
+        }
+
+        ul{
+            display: flex;
+        }
+
+        ul li{
+            padding: 15px;
+            list-style: none;
+            border: 12px solid blueviolet;
+        }
+
+        ul li:first-child{
+            --color: rgb(115, 41, 41);
+            background-color: var(--color);
+
+        }
+        .container{
+            background-color: var(--seccolor);
+            padding: 15px;
+            border: 2px solid blueviolet;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li> Home </li>
+            <li> About </li>
+            <li> Contract </li>
+        </ul>
+    </div>
+
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eveniet eius voluptatem quia earum qui
+        perferendis ratione distinctio et molestiae suscipit iusto aliquam labore fugit repellat, consectetur molestias
+        non nam praesentium ab impedit delectus. Libero sit reprehenderit dignissimos, consequuntur veritatis assumenda
+        totam cupiditate harum similique!
+    </div>
+</body>
+
+</html>

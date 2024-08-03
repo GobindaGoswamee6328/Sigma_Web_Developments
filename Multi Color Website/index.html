@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Multi Color Website </title>
+    <style>
+
+        :root{
+            --color: rgb(196, 48, 196);
+            --seccolor:steelblue;
+            --text-color: black;
+
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: burlywood;
+        }
+
+        .nav {
+            background-color: var(--color);
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul li {
+            list-style: none;
+            border: 2px solid brown;
+            padding: 8px;
+        }
+
+        ul li a{
+            text-decoration: none;
+        }
+
+        .container{
+            background-color: var(--seccolor);
+            color: var(--text-color);
+            border: 2px solid green;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href=""> Home </a> </li>
+            <li><a href=""> About </a> </li>
+            <li><a href=""> Skills </a> </li>
+            <li><a href=""> Education </a> </li>
+            <li><a href=""> contact </a> </li>
+            
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maiores at quam quia consequuntur ratione optio,
+        minima dolores dolorum dolore sequi esse mollitia cum nesciunt ab itaque fugit odio in. Tenetur provident
+        incidunt ex similique, at maiores inventore obcaecati ab adipisci, maxime magnam laboriosam quos?
+    </div>
+</body>
+
+</html>

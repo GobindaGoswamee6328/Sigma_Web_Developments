@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Layout Design </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: black;
+            color: white;
+        }
+        .nav {
+            background-color: plum;
+            position: sticky;
+            top: 0;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul li {
+            list-style: none;
+            padding: 8px;
+            color: black;
+        }
+
+        .boxes {
+            background-color: green;
+            margin: 12px 34px;
+            padding: 55px 23px;
+            text-align: center;
+        }
+
+        .box1 {
+            background-color: palevioletred;
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 0 25px;
+        }
+
+        .box2 {
+            background-color: blue;
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 0 25px;
+        }
+
+        .textBox{
+            border: 2px solid white;
+            padding: 24px;
+            margin: 30px 24vw;
+            font-size: 2em;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .orangebox{
+            height: 32px;
+            width: 32px;
+            background: orange;
+            position: fixed;
+            bottom: 12px;
+            right: 23px;
+            border-radius: 30px;
+        }
+        
+        .footer {
+            height: 85px;
+            background-color: bisque;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li> Home </li>
+            <li> About </li>
+            <li> Skills </li>
+            <li> Education </li>
+            <li> Contact </li>
+        </ul>
+    </div>
+
+    <div class="boxes">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+
+    <div class="textBox">
+        <P>
+            Welcome To My Demo Site.
+        </P>
+    </div>
+
+    <div class="orangebox"></div>
+
+    <div class="footer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque in eligendi? Repellendus fugit perferendis
+        provident sapiente? Inventore amet reprehenderit architecto aliquid iure illo dolor eos. Quo odit asperiores
+        nesciunt numquam deserunt unde magni quaerat, obcaecati amet, a culpa nisi! Perspiciatis, quis asperiores.
+        Laborum saepe, temporibus asperiores quis, esse voluptates quisquam similique velit nostrum ipsa eius quasi
+        aspernatur commodi quia sequi iure perferendis. Temporibus sint asperiores blanditiis culpa incidunt minima
+        ullam est obcaecati modi quia.
+    </div>
+
+</body>
+
+</html>

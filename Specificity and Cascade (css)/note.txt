@@ -1,0 +1,8 @@
+The specificity of Universal Selector is 0
+The specificity of Element Selector's and Pseudo-Element's is 1
+The specificity of Class Selector,Attribute Selector and Pseudo-Classes value is 10
+The specificity of ID Selector is 100
+The specificity of Inline Styles is 1000
+The specificity of Important is 10000
+
+*** We Must Avoid Important and Inline Styles as much as we can So that our website will be more simple.***

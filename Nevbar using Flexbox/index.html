@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nevbar Using Flexbox </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo{
+            background-color: white;
+        }
+
+        .logo image{
+            height: 125px;
+            width: 125px;
+        }
+
+        .nav{
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: whitesmoke;
+
+
+        }
+        ul {
+            display: flex;
+
+        }
+
+        ul li {
+            list-style: none;
+            padding: 8px;
+            margin: 2px solid white;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="logo">
+            <img src="dv-fill.png" alt="icon">
+        </div>
+        <ul>
+            <li><span>Products</span><img src="arrow.png" alt="products icon"> </li>
+            <li><span>Pricing</span><img src="arrow.png" alt="pricing icon"></li>
+            <li><span>Resources</span><img src="arrow.png" alt="resource icon"></li>
+            <li><span>About us</span><img src="arrow.png" alt="about icon"> </li>
+            <li><img src="building-fill.png" alt="icon"></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

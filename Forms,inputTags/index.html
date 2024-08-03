@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms</title>
+</head>
+<body>
+    <form action="Post">
+        <h1>Personal Information </h1>
+        <div>
+            <label> UserName:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        
+        <div>
+            <label> Gender:</label>
+            <input type="radio" name="gender" value="male" id="genderMale">Male
+            <input type="radio" name="gender" value="female" id="genderFemale">Female
+            <input type="radio" name="gender" value="other" id="genderOther">Other
+        </div>
+
+        <div>
+            <label> Address: </label>
+            <textarea rows="3" cols="30" name="address" id="address"></textarea>
+        </div>
+
+        <div>
+            <label> Sports:</label>
+
+            <select name="Sports" id="Sports">
+                <option value="Cricket">Cricket</option>
+                <option value="Football">Football</option>
+                <option value="Hockey">Hockey</option>
+            </select>
+        </div>
+
+        <div>
+            <label> Birthdate: </label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+
+        <div>
+            <input type="checkbox" name="terms" id="terms">
+            <label>Accept all Terms </label>
+        </div>
+    
+        
+
+
+    </form>
+    
+</body>
+</html>

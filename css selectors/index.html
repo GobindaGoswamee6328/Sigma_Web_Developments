@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+
+        /*Element Selector*/
+        div{
+            color: black;
+            background-color: antiquewhite;
+        }
+
+        /* Class Selector*/
+        .red{
+            color: rgb(83, 20, 219);
+            background-color: aquamarine;
+        }
+
+        /* Id Selector*/
+        #green{
+            color: rgb(157, 176, 63);
+            background-color: brown;
+        }
+
+        /* Child Selector*/
+
+        div > p{
+            color: rgb(163, 226, 27);
+            background-color: rgb(30, 112, 112);
+        }
+
+        /*Descendant Selector*/
+        div p{
+            color: blue;
+            background-color: blueviolet;
+        }
+       
+        /* Universal Selector*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Psuedo Selector*/
+        a:visited{
+            color: blue;
+        }
+
+        a:link{
+            color: green;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: yellowgreen;
+        }
+
+        p:first-child{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p> I am first </p>
+        <p> I am second </p>
+
+    </main>
+    <div>
+        Hello World!
+        <article>
+            <p> Sweet </p>
+        </article>
+        <p> Beautifull </p>
+    </div>
+
+    <div class="red">
+        How are You?
+    </div>
+
+    <div id="green">
+        Hey Siri
+    </div>
+
+    <a href="https://www.google.com"> Google </a>
+    <a href="https://www.facebook2.com"> Facebook2 </a>
+    
+</body>
+</html>
