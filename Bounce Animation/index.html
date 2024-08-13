@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bounce Animation</title>
+    <style>
+        .box {
+            background-color: greenyellow;
+            height: 80px;
+            width: 80px;
+            border-radius: 70px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            animation: identifierX 3s linear infinite,identifierY 1s ease-out infinite alternate;
+
+        }
+
+        .container {
+            background-color: blue;
+            position: relative;
+            height: 80vh;
+            width: 80vw;
+        }
+
+        @keyframes identifierY {
+            from {
+                bottom: 0;
+            }
+
+            to {
+                bottom: 100%;
+            }
+        }
+
+        @keyframes identifierX {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>
